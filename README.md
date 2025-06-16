@@ -23,7 +23,7 @@ I'm an engineer with 3 years of experience transitioning into data analytics. My
 - 🗄️ SQL & Database Management  
 - 📊 Data Visualization (Tableau, Power BI, Looker)
 - 🐍 Python for Data Analysis
-- ☁️ Cloud Analytics (Google Cloud, AWS)
+- ☁️ Cloud Analytics (Google Cloud)
 
 ## 🚀 Featured Projects
 This project represents my journey from engineering problem-solving to data storytelling, combining technical rigor with business impact analysis.
