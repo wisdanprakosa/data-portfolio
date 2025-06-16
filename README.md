@@ -18,8 +18,6 @@ I'm an engineer with 3 years of experience transitioning into data analytics. My
 
 **Core Strengths:** System thinking, process optimization, statistical analysis, technical communication
 
-This project represents my journey from engineering problem-solving to data storytelling, combining technical rigor with business impact analysis.
-
 **Core Competencies:**
 - 📈 Business Intelligence & Analytics
 - 🗄️ SQL & Database Management  
@@ -28,6 +26,7 @@ This project represents my journey from engineering problem-solving to data stor
 - ☁️ Cloud Analytics (Google Cloud, AWS)
 
 ## 🚀 Featured Projects
+This project represents my journey from engineering problem-solving to data storytelling, combining technical rigor with business impact analysis.
 
 ### 1. [Industrial Carbon Emission Analysis](./projects/01-Industrial-Carbon-Emission-Analysis)
 **Tools:** Python, Pandas, Matplotlib, Seaborn, SQL  
