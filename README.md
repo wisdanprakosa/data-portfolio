@@ -1,6 +1,6 @@
 # 📊 M Zaki Wijdan Prakosa - Data Portfolio
 
-> Passionate data professional specializing in business analytics and insights generation
+> Passionate data professional leverages an engineering mindset to extract actionable insights from complex datasets 
 
 ## 👋 About Me
 
@@ -13,8 +13,6 @@ I'm an engineer with 3 years of experience transitioning into data analytics. My
 - Programming and statistical thinking
 - Process optimization and performance analysis
 - Cross-functional stakeholder communication
-
-**Goal:** Leverage engineering mindset to extract actionable insights from complex datasets
 
 **Core Strengths:** System thinking, process optimization, statistical analysis, technical communication
 
@@ -53,9 +51,9 @@ This project represents my journey from engineering problem-solving to data stor
 - Cloud Platforms - Google Cloud Platform
 - Version Control - Git, GitHub
 
-** 📈 Certifications & Courses:**
-- 🏆 Currently enrolled in: Hands On Data Portfolio by M Fauzan S Nugraha
-- 📊 Currently enrolled in: Mini Bootcamp Data Analyst Mini Bootcamp by M Fauzan S Nugraha
+**📈 Certifications & Courses:**
+- 🏆 Hands On Data Portfolio by M Fauzan S Nugraha
+- 📊 Mini Bootcamp Data Analyst Mini Bootcamp by M Fauzan S Nugraha
 - 🎯 Data Analytics by Remote Worker Indonesia 2024
 - 👥 Job Connector Data Science Batch 11 2023 by Purwadhika Digital School dan Technology 
 
@@ -65,7 +63,6 @@ This project represents my journey from engineering problem-solving to data stor
 - **LinkedIn:** [linkedin.com/in/muhammad-zaki-9a2431191](www.linkedin.com/in/muhammad-zaki-9a2431191)
 - **Email:** wisdanprakosa@gmail.com
 - **Portfolio Website:** [yourwebsite.com]()
-- **Medium/Blog:** [Link to your articles]
 
 ---
 
