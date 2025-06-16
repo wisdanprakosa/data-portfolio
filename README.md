@@ -46,7 +46,7 @@ This project represents my journey from engineering problem-solving to data stor
 
 **Languages & Tools:**
 - SQL (Beginner) - PostgreSQL, MySQL, BigQuery
-- Python (Beginner) - Pandas, NumPy, Scikit-learn
+- Python (Beginner) - Pandas, NumPy, Scikit-learn, Seaborn
 - Visualization - Tableau, Power BI, Looker, Matplotlib
 - Cloud Platforms - Google Cloud Platform
 - Version Control - Git, GitHub
