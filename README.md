@@ -29,22 +29,23 @@ This project represents my journey from engineering problem-solving to data stor
 
 ## 🚀 Featured Projects
 
-### 1. [E-commerce Sales Analysis](./projects/01-retail-sales-analysis)
+### 1. [Industrial Carbon Emission Analysis](./projects/01-Industrial-Carbon-Emission-Analysis)
+**Tools:** Looker Data Studio, Google Analytics API  
+
+[View Project →](./projects/01-Industrial-Carbon-Emission-Analysis)
+
+### 2. [E-commerce Sales Analysis](./projects/02-retail-sales-analysis)
 **Tools:** SQL, BigQuery, Looker Data Studio  
 
-[View Project →](./projects/01-retail-sales-analysis)
+[View Project →](./projects/02-retail-sales-analysis)
 
-### 2. [Customer Behavior Study](./projects/02-customer-behavior-study)
+### 3. [Customer Behavior Study](./projects/03-customer-behavior-study)
 **Tools:** Python, Pandas, Matplotlib, Seaborn  
 
 
-[View Project →](./projects/02-customer-behavior-study)
-
-### 3. [Industrial Carbon Emission Analysis](./projects/03-marketing-dashboard)
-**Tools:** Looker Data Studio, Google Analytics API  
+[View Project →](./projects/03-customer-behavior-study)
 
 
-[View Project →](./projects/03-marketing-dashboard)
 
 ## 🛠️ Technical Skills
 
