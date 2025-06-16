@@ -50,18 +50,15 @@ This project represents my journey from engineering problem-solving to data stor
 - SQL (Beginner) - PostgreSQL, MySQL, BigQuery
 - Python (Beginner) - Pandas, NumPy, Scikit-learn
 - Visualization - Tableau, Power BI, Looker, Matplotlib
-- Cloud Platforms - Google Cloud Platform, AWS
+- Cloud Platforms - Google Cloud Platform
 - Version Control - Git, GitHub
 
-**Certifications:**
-- [Add your relevant certifications]
+** 📈 Certifications & Courses:**
+- 🏆 Currently enrolled in: Hands On Data Portfolio by M Fauzan S Nugraha
+- 📊 Currently enrolled in: Mini Bootcamp Data Analyst Mini Bootcamp by M Fauzan S Nugraha
+- 🎯 Data Analytics by Remote Worker Indonesia 2024
+- 👥 Job Connector Data Science Batch 11 2023 by Purwadhika Digital School dan Technology 
 
-## 📈 Recent Achievements
-
-- 🏆 on going
-- 📊 
-- 🎯 
-- 👥 
 
 ## 📫 Let's Connect
 
