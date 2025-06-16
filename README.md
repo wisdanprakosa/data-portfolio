@@ -15,8 +15,8 @@ I'm an engineer with 3 years of experience transitioning into data analytics. My
 - Cross-functional stakeholder communication
 
 **Goal:** Leverage engineering mindset to extract actionable insights from complex datasets
-**Core Strengths:** System thinking, process optimization, statistical analysis, technical communication
 
+**Core Strengths:** System thinking, process optimization, statistical analysis, technical communication
 
 This project represents my journey from engineering problem-solving to data storytelling, combining technical rigor with business impact analysis.
 
@@ -30,7 +30,7 @@ This project represents my journey from engineering problem-solving to data stor
 ## 🚀 Featured Projects
 
 ### 1. [Industrial Carbon Emission Analysis](./projects/01-Industrial-Carbon-Emission-Analysis)
-**Tools:** Looker Data Studio, Google Analytics API  
+**Tools:** Python, Pandas, Matplotlib, Seaborn, SQL  
 
 [View Project →](./projects/01-Industrial-Carbon-Emission-Analysis)
 
@@ -42,9 +42,7 @@ This project represents my journey from engineering problem-solving to data stor
 ### 3. [Customer Behavior Study](./projects/03-customer-behavior-study)
 **Tools:** Python, Pandas, Matplotlib, Seaborn  
 
-
 [View Project →](./projects/03-customer-behavior-study)
-
 
 
 ## 🛠️ Technical Skills
@@ -61,14 +59,14 @@ This project represents my journey from engineering problem-solving to data stor
 
 ## 📈 Recent Achievements
 
-- 🏆 
+- 🏆 on going
 - 📊 
 - 🎯 
 - 👥 
 
 ## 📫 Let's Connect
 
-- **LinkedIn:** [linkedin.com/in/yourprofile](www.linkedin.com/in/muhammad-zaki-9a2431191)
+- **LinkedIn:** [linkedin.com/in/muhammad-zaki-9a2431191](www.linkedin.com/in/muhammad-zaki-9a2431191)
 - **Email:** wisdanprakosa@gmail.com
 - **Portfolio Website:** [yourwebsite.com]()
 - **Medium/Blog:** [Link to your articles]
