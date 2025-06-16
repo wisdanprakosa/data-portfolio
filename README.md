@@ -4,9 +4,21 @@
 
 ## 👋 About Me
 
-I'm a [current role] with [X years] experience in [industry/domain]. 
-I specialize in transforming raw data into actionable business insights 
-using modern analytics tools and methodologies.
+**Career Transition: Engineering → Data Analytics**
+
+I'm an engineer with 3 years of experience transitioning into data analytics. My engineering background brings analytical rigor, problem-solving skills, and technical expertise to data-driven decision making. This portfolio demonstrates my commitment to leveraging data for business impact and environmental sustainability.
+
+**Transferable Skills:** 
+- Problem decomposition and systematic analysis
+- Programming and statistical thinking
+- Process optimization and performance analysis
+- Cross-functional stakeholder communication
+
+**Goal:** Leverage engineering mindset to extract actionable insights from complex datasets
+**Core Strengths:** System thinking, process optimization, statistical analysis, technical communication
+
+
+This project represents my journey from engineering problem-solving to data storytelling, combining technical rigor with business impact analysis.
 
 **Core Competencies:**
 - 📈 Business Intelligence & Analytics
@@ -28,7 +40,7 @@ using modern analytics tools and methodologies.
 
 [View Project →](./projects/02-customer-behavior-study)
 
-### 3. [Marketing Performance Dashboard](./projects/03-marketing-dashboard)
+### 3. [Industrial Carbon Emission Analysis](./projects/03-marketing-dashboard)
 **Tools:** Looker Data Studio, Google Analytics API  
 
 
@@ -37,8 +49,8 @@ using modern analytics tools and methodologies.
 ## 🛠️ Technical Skills
 
 **Languages & Tools:**
-- SQL (Advanced) - PostgreSQL, MySQL, BigQuery
-- Python (Intermediate) - Pandas, NumPy, Scikit-learn
+- SQL (Beginner) - PostgreSQL, MySQL, BigQuery
+- Python (Beginner) - Pandas, NumPy, Scikit-learn
 - Visualization - Tableau, Power BI, Looker, Matplotlib
 - Cloud Platforms - Google Cloud Platform, AWS
 - Version Control - Git, GitHub
@@ -48,10 +60,10 @@ using modern analytics tools and methodologies.
 
 ## 📈 Recent Achievements
 
-- 🏆 Increased revenue attribution accuracy by 30%
-- 📊 Built 15+ automated dashboards reducing manual reporting by 20 hours/week
-- 🎯 Delivered insights leading to 12% improvement in conversion rates
-- 👥 Trained 50+ stakeholders on data-driven decision making
+- 🏆 
+- 📊 
+- 🎯 
+- 👥 
 
 ## 📫 Let's Connect
 
