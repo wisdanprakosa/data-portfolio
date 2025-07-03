@@ -12,8 +12,7 @@ Comprehensive e-commerce data analysis using Supabase (PostgreSQL) cloud databas
 5. **Operational Efficiency**: Improve business processes through data
 
 ## 🛠️ Technical Stack
-- **Database**: Supabase (PostgreSQL) - Modern cloud database
-- **Data Generation**: Python with Faker library
+- **Database**: Supabase (PostgreSQL) - Modern cloud database 
 - **Analysis**: Advanced SQL with window functions, CTEs
 - **Visualization**: Looker Data Studio
 - **Version Control**: GitHub for documentation
@@ -22,44 +21,41 @@ Comprehensive e-commerce data analysis using Supabase (PostgreSQL) cloud databas
 - **2,000 customers** across 20+ Indonesian cities
 - **500 products** in 15 categories
 - **5,000+ orders** with realistic business patterns
-- **15,000+ order items** with detailed transaction data
-- **Time range**: 24 months of historical data
+- **Time range**: 12 months of historical data
 
 ## 🔍 Key Business Insights
 
 ### Revenue Performance
-- **Total Revenue**: Rp 2.1B over 24 months
-- **Monthly Growth**: 8.5% average month-over-month
-- **Peak Season**: December shows 40% revenue spike
-- **Customer Lifetime Value**: Rp 1.2M average
+- **Total Revenue**: Rp 326 M over 12 months
+- **Monthly Growth**: 10% average month-over-month
+- **Peak Season**: May shows 15% revenue growth
 
 ### Customer Segmentation
-- **Champions (15%)**: High value, frequent buyers - Rp 2.5M average
-- **Loyal Customers (25%)**: Consistent purchasers - Rp 1.8M average
-- **At Risk (20%)**: High value but declining engagement
-- **New Customers (40%)**: Recent acquisitions with growth potential
+- **Champions (16%)**: High value, frequent buyers - Rp 400.535 average 
+- **Loyal Customers (12%)**: Consistent purchasers - Rp 206.949 average
+- **At Risk (17%)**: High value but declining engagement
+- **New Customers (16%)**: Recent acquisitions with growth potential
 
 ### Product Intelligence
-- **Top Category**: Electronics (35% of revenue)
-- **Best Performer**: Samsung Galaxy series
-- **Profit Leaders**: Premium accessories (45% margin)
-- **Inventory Insight**: 12% of products drive 80% of revenue
+- **Top Category**: Home and garden (35% of revenue)
+- **Best Performer**: Vivo
+- **Profit Leaders**: Pro Home Ipsam (47% margin)
 
 ### Geographic Opportunities
-- **Top Markets**: Jakarta, Surabaya, Bandung
-- **Expansion Targets**: Medan, Makassar (high conversion, low penetration)
+- **Top Markets**: Jawa Timur, DKI Jakarta, Jawa tengah
+- **Expansion Targets**: Batam, Bali (high customers, low converstion)
 - **Regional Patterns**: Urban areas favor electronics, rural prefer household items
 
 ## 🚀 Business Recommendations
 
 ### 1. Customer Retention Strategy
-- **Target "At Risk" segment** with personalized offers
+- **Target "At Risk" segment** with personalized offers, discount
 - **Loyalty program** for Champions and Loyal customers
 - **Win-back campaigns** for hibernating customers
 - **ROI Impact**: Estimated 15% revenue increase
 
 ### 2. Geographic Expansion
-- **Priority markets**: Medan, Makassar, Balikpapan
+- **Priority markets**: Batam, Bali
 - **Localized inventory** based on regional preferences
 - **Partnership opportunities** with local distributors
 - **Growth Potential**: 25% market expansion
