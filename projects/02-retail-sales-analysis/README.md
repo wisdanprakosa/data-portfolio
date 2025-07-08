@@ -93,7 +93,7 @@ Comprehensive e-commerce data analysis using Supabase (PostgreSQL) cloud databas
 - **Cost Optimization**: 15% reduction in inventory holding costs
 
 ## 🔗 Live Dashboard
-[Interactive Executive Dashboard](https://datastudio.google.com/your-dashboard)
+[Interactive Executive Dashboard]([https://datastudio.google.com/your-dashboard](https://lookerstudio.google.com/reporting/075686cd-3d70-405d-b6d8-8b58510bb33b))
 
 ## 🏆 Skills Demonstrated
 - Modern cloud database management (Supabase/PostgreSQL)
