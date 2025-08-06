@@ -1,12 +1,12 @@
 # 📊 M Zaki Wijdan Prakosa - Data Portfolio
 
-> Passionate data professional leverages an engineering mindset to extract actionable insights from complex datasets 
+> Data analyst skilled in Microsoft Excel, Python, SQL, Tableau, Looker Studio 
 
 ## 👋 About Me
 
 **Career Transition: Engineering → Data Analytics**
 
-I'm an engineer with 3 years of experience transitioning into data analytics. My engineering background brings analytical rigor, problem-solving skills, and technical expertise to data-driven decision making. This portfolio demonstrates my commitment to leveraging data for business impact and environmental sustainability.
+I'm an engineer with 3 years of experience transitioning into data analyst. My engineering background brings analytical rigor, problem-solving skills, and technical expertise to data-driven decision making. This portfolio demonstrates my commitment to leveraging data for business impact and environmental sustainability. Passionate data professional leverages an engineering mindset to extract actionable insights from complex datasets.
 
 **Transferable Skills:** 
 - Problem decomposition and systematic analysis
