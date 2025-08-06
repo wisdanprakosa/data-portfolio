@@ -45,18 +45,18 @@ This project represents my journey from engineering problem-solving to data stor
 ## 🛠️ Technical Skills
 
 **Languages & Tools:**
-- SQL (Beginner) - PostgreSQL, MySQL, BigQuery
-- Python (Beginner) - Pandas, NumPy, Scikit-learn, Seaborn
-- Visualization - Tableau, Power BI, Looker, Matplotlib
+- SQL (Intermediate) - PostgreSQL, MySQL, BigQuery
+- Python (Intermediate) - Pandas, NumPy, Scikit-learn, Seaborn
+- Visualization - Tableau, Power BI, Looker Studio, Matplotlib
 - Cloud Platforms - Google Cloud Platform
 - Version Control - Git, GitHub
 
 **📈 Certifications & Courses:**
-- 🏆 Hands On Data Portfolio by M Fauzan S Nugraha
-- 📊 Mini Bootcamp Data Analyst Mini Bootcamp by M Fauzan S Nugraha
-- 🎯 Data Analytics by Remote Worker Indonesia 2024
-- 👥 Job Connector Data Science Batch 11 2023 by Purwadhika Digital School dan Technology 
-
+- Certificate of Accomplishment SQL (Basic) by HackerRank
+- Hands On Data Portfolio by M Fauzan S Nugraha
+- Data Analyst Mini Bootcamp by M Fauzan S Nugraha
+- Data Analytics by Remote Worker Indonesia 2024
+- Job Connector Data Science Batch 11 2023 by Purwadhika Digital School dan Technology 
 
 ## 📫 Let's Connect
 
