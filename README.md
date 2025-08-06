@@ -60,7 +60,7 @@ This project represents my journey from engineering problem-solving to data stor
 
 ## 📫 Let's Connect
 
-- **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/Muhammad-Zaki-Wijdan756)
+- **LinkedIn:** [M Zaki Wijdan Prakosa](https://www.linkedin.com/in/Muhammad-Zaki-Wijdan756)
 - **Email:** wisdanprakosa@gmail.com
 - **Portfolio Website:** [yourwebsite.com]()
 
