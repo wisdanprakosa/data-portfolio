@@ -36,10 +36,10 @@ This project represents my journey from engineering problem-solving to data stor
 
 [View Project →](./projects/02-retail-sales-analysis)
 
-### 3. [House Sales Dashboard](./projects/03-House Sales Dashboard/Dataset)
+### 3. [House Sales Dashboard](./projects/03-House-Sales-Dashboard)
 **Tools:** Microsoft Excel, Tableau  
 
-[View Project →](./projects/03-House Sales Dashboard/Dataset)
+[View Project →](./projects/03-House-Sales-Dashboard)
 
 
 ## 🛠️ Technical Skills
