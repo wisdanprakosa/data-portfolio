@@ -36,8 +36,8 @@ This project represents my journey from engineering problem-solving to data stor
 
 [View Project →](./projects/02-retail-sales-analysis)
 
-### 3. [Customer Behavior Study](./projects/03-customer-behavior-study)
-**Tools:** Python, Pandas, Matplotlib, Seaborn  
+### 3. [House Sales Dashboard](./projects/03-customer-behavior-study)
+**Tools:** Microsoft Excel, Tableau  
 
 [View Project →](./projects/03-customer-behavior-study)
 
