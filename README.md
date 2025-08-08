@@ -41,6 +41,20 @@ This project represents my journey from engineering problem-solving to data stor
 
 [View Project →](./projects/03-House-Sales-Dashboard)
 
+### 4. [Airbnb Listings Bangkok Analysis](./projects/04-Airbnb-Listings-Bangkok-Analysis)
+**Tools:** Python, Pandas, Matplotlib, Seaborn, Tableau  
+
+[View Project →](./projects/04-Airbnb-Listings-Bangkok-Analysis)
+
+### 5. [House Sales Dashboard](./projects/03-House-Sales-Dashboard)
+**Tools:** Microsoft Excel, Tableau  
+
+[View Project →](./projects/03-House-Sales-Dashboard)
+
+### 6. [House Sales Dashboard](./projects/03-House-Sales-Dashboard)
+**Tools:** Microsoft Excel, Tableau  
+
+[View Project →](./projects/03-House-Sales-Dashboard)
 
 ## 🛠️ Technical Skills
 
