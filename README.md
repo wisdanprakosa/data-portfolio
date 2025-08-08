@@ -46,10 +46,10 @@ This project represents my journey from engineering problem-solving to data stor
 
 [View Project →](./projects/04-Airbnb-Listings-Bangkok-Analysis)
 
-### 5. [House Sales Dashboard](./projects/03-House-Sales-Dashboard)
-**Tools:** Microsoft Excel, Tableau  
+### 5. [Taxi Trip Analysis](./projects/05-Taxi-Trip-Analysis)
+**Tools:** Python, Pandas, Matplotlib, Seaborn  
 
-[View Project →](./projects/03-House-Sales-Dashboard)
+[View Project →](./projects/05-Taxi-Trip-Analysis)
 
 ### 6. [House Sales Dashboard](./projects/03-House-Sales-Dashboard)
 **Tools:** Microsoft Excel, Tableau  
