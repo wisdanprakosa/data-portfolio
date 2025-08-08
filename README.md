@@ -62,7 +62,7 @@ This project represents my journey from engineering problem-solving to data stor
 
 - **LinkedIn:** [M Zaki Wijdan Prakosa](https://www.linkedin.com/in/Muhammad-Zaki-Wijdan756)
 - **Email:** wisdanprakosa@gmail.com
-- **Portfolio Website:** [yourwebsite.com](https://wisdanprakosa.github.io/data.web-portfolio/)
+- **Portfolio Website:** [wsdn.data-portfolio.com](https://wisdanprakosa.github.io/data.web-portfolio/)
 
 ---
 
