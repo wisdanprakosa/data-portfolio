@@ -12,18 +12,7 @@
 * **Dataset**:
   `Bike Sales Dashboard Project.xlsx` → main sheet **`bike_buyers`**, **1,026 rows × 14 columns** (key fields: `Gender, Income, Children, Education, Occupation, Home Owner, Cars, Commute Distance, Region, Age, Age Bracket, Purchased Bike`).
 * **Tools used**:
-  Microsoft **Excel** (PivotTables, Slicers, Pivot Charts, Dashboard sheet). *(Optional: Power Query for light cleaning).*
-* **Timeline**: \~**1–2 days** (0.5 data understanding, 0.5–1 pivot & dashboard, 0.5 documentation).
-
----
-
-## Methodology (Concise)
-
-1. **Data check**: validate column types, ensure consistent categorical labels (e.g., `Commute Distance`, `Age Bracket`).
-2. **Feature & standardization**: unify `Purchased Bike` → {Yes/No}; derive **conversion rate** = buyers / total by segment.
-3. **Pivoting**: build PivotTables for conversion by **Age Bracket**, **Commute Distance**, **Region**, **Home Owner**, **Gender**, **Marital Status**, **Education**, **Occupation**, **Cars**, **Children**.
-4. **Dashboarding**: assemble KPIs & charts; add **slicers** (Region, Gender, Age Bracket, Commute Distance, Home Owner).
-5. **Validation**: sanity-check row totals, Yes+No consistency, and conversion math.
+  Microsoft **Excel** (PivotTables, Slicers, Pivot Charts, Dashboard sheet). 
 
 ---
 
@@ -55,24 +44,11 @@
 > * **Positioning** → emphasize commute-friendly features (lightweight, practical, efficient).
 > * **Promotions** → entry bundles for buyers with no/one car; commute gear bundling.
 
-* **Challenges faced**
-
-  * No transaction date → cannot analyze seasonality.
-  * Text categories (e.g., commute/education) need standardization for consistency.
-  * Income medians overlap → add features (micro-location, product price) for sharper propensity models.
-
 ---
 
 ## Dashboard & Files
-
-> Use **relative paths** in your repo (renaming files to avoid spaces is safer).
-
 * **Workbook (Excel)**:
   `[Bike Sales Dashboard Project.xlsx](./assets/Bike%20Sales%20Dashboard%20Project.xlsx)`
-  *Recommended rename →* `Bike_Sales_Dashboard.xlsx` → `[./assets/Bike_Sales_Dashboard.xlsx](./assets/Bike_Sales_Dashboard.xlsx)`
-
-* **Live demo (optional)**:
-  Host via OneDrive/SharePoint/Google Drive (view-only) or export a PNG preview of the dashboard and link it here.
 
 ---
 
@@ -90,38 +66,8 @@
 
 ---
 
-## How to Reproduce (Excel)
-
-1. Open the workbook → see **Pivot Table** & **Dashboards** sheets.
-2. If data updates, click **Data → Refresh All**.
-3. Use **Slicers** (Region, Gender, Age Bracket, Commute Distance, Home Owner) for interactive exploration.
-4. (Optional) Power Query: add cleaning/standardization steps before pivoting.
-
----
-
-## Suggested Repository Structure
-
-```
-/projects/06-bike-sales-dashboard
-├─ README.md
-├─ assets/
-│  └─ Bike_Sales_Dashboard.xlsx
-└─ docs/
-   └─ screenshots/
-      └─ dashboard.png   # optional preview
-```
-
----
-
 ## Skills Demonstrated
 
 **Excel PivotTables & Slicers, KPI design, categorical segmentation, conversion analysis, dashboard storytelling, stakeholder-ready insight framing.**
 
 ---
-
-## Next Steps
-
-* Add a simple **propensity score** per persona (e.g., logistic regression in Excel/Power BI).
-* Roll out **A/B tests** targeting *Middle Age & 0–5 miles* in the *Pacific* region.
-* Integrate **price & product** (bike types) for commute-focused bundling recommendations.
-
