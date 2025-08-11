@@ -1,7 +1,3 @@
-Here’s a ready-to-paste README for your **Airbnb Listings — Bangkok** project. I filled in the details from the files you uploaded (CSV, notebook, data dictionary) and kept it recruiter-friendly.
-
----
-
 # Airbnb Listings — Bangkok Market Analysis
 
 > Exploratory analysis of Bangkok Airbnb listings to understand price drivers, neighborhood patterns, and levers to improve occupancy & revenue.
@@ -60,12 +56,6 @@ Here’s a ready-to-paste README for your **Airbnb Listings — Bangkok** projec
   * **Minimum nights**: majority allow **1 night** (P75 = 7) but outliers (up to 1,125) depress demand—tighten rules to market norms.
   * **Supply strategy**: expand in high-demand clusters (Vadhana/Khlong Toei); optimize availability for seasonality (median `availability_365` ≈ **309** days; median `reviews_per_month` ≈ **0.44**).
 
-* **Challenges faced**
-
-  * Extreme **outliers** in `price` and `minimum_nights`.
-  * **Missing values** in review-related fields.
-  * **Neighborhood spelling/standardization** (minor inconsistencies).
-
 ---
 
 ## Dashboard & Files
@@ -73,16 +63,10 @@ Here’s a ready-to-paste README for your **Airbnb Listings — Bangkok** projec
 > Adjust the relative paths below to match your repo if needed.
 
 * **Notebook**:
-  [`Capstone 2_Airbnb Listings Bangkok.ipynb`](./notebooks/Capstone%202_Airbnb%20Listings%20Bangkok.ipynb)
+  [`Airbnb Listings Bangkok Analysis.ipynb`](./assets/Airbnb-Listings-Bangkok-Analysis.ipynb)
 
 * **Dataset (CSV)**:
-  [`Airbnb Listings Bangkok.csv`](./assets/Airbnb%20Listings%20Bangkok.csv)
-
-* **Data Dictionary (PDF)**:
-  [`Airbnb Listings Bangkok Data Dictionary.pdf`](./assets/Airbnb%20Listings%20Bangkok%20Data%20Dictionary.pdf)
-
-**Live demo (optional):**
-Publish charts to Tableau Public or a lightweight Streamlit app; add the link here once deployed.
+  [`Airbnb Listings Bangkok.csv`](./assets/Airbnb-Listings-Bangkok.csv)
 
 ---
 
@@ -99,33 +83,6 @@ Publish charts to Tableau Public or a lightweight Streamlit app; add the link he
 
 ---
 
-## How to Reproduce
-
-1. Clone the repo and open the notebook:
-
-   ```bash
-   pip install -r requirements.txt  # if provided
-   jupyter lab
-   ```
-2. Run `./notebooks/Capstone 2_Airbnb Listings Bangkok.ipynb`.
-3. Ensure data files are in `./assets/`.
-
----
-
-## Suggested Repository Structure
-
-```
-/projects/04-Airbnb-Bangkok-Listings
-├─ README.md
-├─ notebooks/
-│  └─ Capstone 2_Airbnb Listings Bangkok.ipynb
-└─ assets/
-   ├─ Airbnb Listings Bangkok.csv
-   └─ Airbnb Listings Bangkok Data Dictionary.pdf
-```
-
----
-
 ## Skills Demonstrated
 
 **Data wrangling (Pandas), exploratory data analysis, outlier handling, robust statistics, geospatial grouping (by neighborhood), visualization, and business interpretation for pricing & supply decisions.**
@@ -139,5 +96,3 @@ Publish charts to Tableau Public or a lightweight Streamlit app; add the link he
 * Ship a **Streamlit/Tableau** mini-app for interactive exploration.
 
 ---
-
-**Author**: *\[Your Name]* • *\[LinkedIn]* • *\[GitHub]*
