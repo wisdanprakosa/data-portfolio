@@ -52,7 +52,7 @@ This project represents my journey from engineering problem-solving to data stor
 [View Project →](./projects/05-Taxi-Trip-Analysis)
 
 ### 6. [Bike Sales Dashboard](./projects/06-Bike-Sales-Dashboard)
-**Tools:** Microsoft Excel
+**Tools:** Microsoft Excel (PivotTables, Slicers, Pivot Charts, Dashboard sheet)
 
 [View Project →](./projects/06-Bike-Sales-Dashboard)
 
