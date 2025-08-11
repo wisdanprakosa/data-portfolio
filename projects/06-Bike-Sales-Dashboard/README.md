@@ -69,5 +69,5 @@
 
 **Excel PivotTables & Slicers, KPI design, categorical segmentation, conversion analysis, dashboard storytelling, stakeholder-ready insight framing.**
 
-**Credit : Alex The Analyst**
+****Credit : Alex The Analyst****
 ---
