@@ -17,28 +17,6 @@
 
 ---
 
-## Methodology (Concise)
-
-1. **Ingestion & Schema Checks**
-   Load Excel → verify types, date range, zipcode coverage; ensure no missing values in core fields.
-2. **Cleaning & Standardization**
-
-   * Parse `date` to `YYYY-MM-DD`.
-   * Normalize categories: `view` {No View, Fair, Average, Good, Excellent}; `condition` from Poor/Worn-out → Very Good.
-   * Create features: `price_per_sqft = price / sqft_living`; binned histograms for price/bedrooms/bathrooms.
-3. **Visual Analytics (Tableau)**
-
-   * **Time series**: daily average price.
-   * **Histograms**: price, bedrooms, bathrooms.
-   * **Heatmap**: `view × condition` vs **avg price**.
-   * **Map**: zipcode-level aggregation for spatial patterns.
-4. **Validation (quick)**
-
-   * Correlation of numerics to `price`.
-   * Simple regression: `price ~ sqft_living` to estimate **\$ per sqft**.
-
----
-
 ## Analysis Results
 
 * **Key finding 1 — Technical price drivers**
@@ -55,12 +33,6 @@
   * **Renovation ROI**: prioritize **finish grade** and **bathroom upgrades** for stronger value uplift.
   * **Targeting**: spatial clusters (lat/zipcode) show higher averages → focus marketing on premium pockets.
 
-* **Challenges faced**
-
-  * **Right-skewed prices** (p95 ≈ \$980k) affect averages and chart scaling.
-  * **Category semantics** (`grade`, `condition`) need shared definitions across teams.
-  * **Spatial granularity**: zipcode aggregation can hide block-level nuances.
-
 ---
 
 ## Dashboard & Files
@@ -68,9 +40,7 @@
 * **Tableau Workbook**: [House Prices Dashboard.twbx](./assets/House-Prices-Dashboard.twbx)
   *(Open with Tableau Desktop/Reader. Optionally publish to Tableau Public for a live demo.)*
 * **Dataset**: [HouseData.xlsx](./assets/HouseData.xlsx)
-
-**Live Demo:**
-[House Sales Dashboard](https://public.tableau.com/app/profile/muhammad.zaki8426/viz/HousePricesDashboard_17339701719370/KingCountyHouseSales?publish=yes)
+* **Live Demo:** [House Sales Dashboard](https://public.tableau.com/app/profile/muhammad.zaki8426/viz/HousePricesDashboard_17339701719370/KingCountyHouseSales?publish=yes)
 
 ---
 
