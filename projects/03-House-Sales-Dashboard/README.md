@@ -1,5 +1,3 @@
-Here you go — the English version ready to copy-paste.
-
 ---
 
 # King County, Washington — House Sales Analysis (2014–2015)
