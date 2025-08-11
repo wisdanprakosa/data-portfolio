@@ -12,10 +12,10 @@
 * **Business problem**:
   Identify how features (living area, bathrooms, grade/finish quality, view, condition, location) affect **sale price**, and turn those insights into actionable guidance for **pricing**, **renovation priorities**, and **marketing strategy**.
 * **Dataset**:
-  `HouseData.xlsx` — **21,060 rows × 16 columns** (\~2.0 MB). Transactions **2014-05-02 to 2015-05-27** with fields such as `price, bedrooms, bathrooms, sqft_living, sqft_lot, floors, waterfront, view, condition, grade, yr_built, zipcode, lat, long, date`.
+  `HouseData.xlsx` — **21,060 rows × 16 columns** . Transactions **2014-05-02 to 2015-05-27** with fields such as `price, bedrooms, bathrooms, sqft_living, sqft_lot, floors, waterfront, view, condition, grade, yr_built, zipcode, lat, long, date`.
   • Download: [HouseData.xlsx](sandbox:/mnt/data/HouseData.xlsx)
 * **Tools used**:
-  Tableau (dashboards & geo maps), Microsoft Excel (quick checks), *optional*: Python/Pandas for sanity checks.
+  Tableau (dashboards & geo maps), Microsoft Excel
 * **Timeline**: \~3–4 days total (data understanding/cleaning: 1–2; dashboarding/insights: 1–2; documentation: 0.5).
 
 ---
@@ -73,9 +73,9 @@
 * **Preview Screenshot**: [PNG](sandbox:/mnt/data/Screenshot%202025-08-06%20144317.png)
 * **Dataset**: [HouseData.xlsx](sandbox:/mnt/data/HouseData.xlsx)
 
-**Live Demo (optional):**
+**Live Demo:**
 After publishing to Tableau Public, add your link here:
-`https://public.tableau.com/views/KingCountyHouseSales/...`
+[`https://public.tableau.com/views/KingCountyHouseSales/...`](https://public.tableau.com/app/profile/muhammad.zaki8426/viz/HousePricesDashboard_17339701719370/KingCountyHouseSales?publish=yes)
 
 ---
 
