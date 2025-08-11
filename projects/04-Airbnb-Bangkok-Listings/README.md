@@ -1,3 +1,7 @@
+Here you go — the English version ready to copy-paste.
+
+---
+
 # King County, Washington — House Sales Analysis (2014–2015)
 
 > Visual analytics project to understand price drivers and neighborhood patterns for residential properties in King County, WA.
@@ -10,113 +14,113 @@
 
 * **Title**: King County House Sales — Price Drivers & Market Patterns
 * **Business problem**:
-  Bagaimana faktor-faktor (luas bangunan, jumlah kamar mandi, kondisi, view, grade, lokasi) memengaruhi **harga jual rumah**, dan **insight apa** yang dapat dipakai untuk penentuan harga, renovasi prioritas, serta strategi pemasaran?
+  Identify how features (living area, bathrooms, grade/finish quality, view, condition, location) affect **sale price**, and turn those insights into actionable guidance for **pricing**, **renovation priorities**, and **marketing strategy**.
 * **Dataset**:
-  `HouseData.xlsx` — 21,060 baris × 16 kolom (±2.0 MB). Periode transaksi **2014-05-02 s.d. 2015-05-27**, mencakup fitur utama: `price, bedrooms, bathrooms, sqft_living, sqft_lot, floors, waterfront, view, condition, grade, yr_built, zipcode, lat, long, date`.
-  • Unduh: [HouseData.xlsx](sandbox:/mnt/data/HouseData.xlsx)
+  `HouseData.xlsx` — **21,060 rows × 16 columns** (\~2.0 MB). Transactions **2014-05-02 to 2015-05-27** with fields such as `price, bedrooms, bathrooms, sqft_living, sqft_lot, floors, waterfront, view, condition, grade, yr_built, zipcode, lat, long, date`.
+  • Download: [HouseData.xlsx](sandbox:/mnt/data/HouseData.xlsx)
 * **Tools used**:
-  Tableau (dashboard & mapping), Microsoft Excel (data check), *optional*: Python/Pandas untuk validasi cepat.
-* **Timeline**: 1–2 hari (data understanding & cleaning), 1–2 hari (dashboard & insight), 0.5 hari (dokumentasi).
+  Tableau (dashboards & geo maps), Microsoft Excel (quick checks), *optional*: Python/Pandas for sanity checks.
+* **Timeline**: \~3–4 days total (data understanding/cleaning: 1–2; dashboarding/insights: 1–2; documentation: 0.5).
 
 ---
 
 ## Methodology (Concise)
 
-1. **Ingest & Schema Check**
-   Muat data Excel → verifikasi tipe data, range tanggal (2014–2015), 70 zipcode, *no missing values* pada kolom inti.
+1. **Ingestion & Schema Checks**
+   Load Excel → verify types, date range, zipcode coverage; ensure no missing values in core fields.
 2. **Cleaning & Standardization**
 
-   * Parse kolom `date` → `YYYY-MM-DD`.
-   * Normalisasi kategori: `view` {No View, Fair, Average, Good, Excellent}, `condition` {Poor-Worn out … Very Good}.
-   * Buat fitur turunan: `price_per_sqft = price / sqft_living`, binning histogram untuk price/bedrooms/bathrooms.
+   * Parse `date` to `YYYY-MM-DD`.
+   * Normalize categories: `view` {No View, Fair, Average, Good, Excellent}; `condition` from Poor/Worn-out → Very Good.
+   * Create features: `price_per_sqft = price / sqft_living`; binned histograms for price/bedrooms/bathrooms.
 3. **Visual Analytics (Tableau)**
 
-   * **Time series** daily average price.
-   * **Histogram**: price, bedrooms, bathrooms.
+   * **Time series**: daily average price.
+   * **Histograms**: price, bedrooms, bathrooms.
    * **Heatmap**: `view × condition` vs **avg price**.
-   * **Map**: agregasi per area/zipcode.
-4. **Validation (quick checks)**
+   * **Map**: zipcode-level aggregation for spatial patterns.
+4. **Validation (quick)**
 
-   * Korelasi numerik terhadap `price`.
-   * Regresi satu variabel: `price ~ sqft_living` untuk estimasi *\$ per sqft*.
+   * Correlation of numerics to `price`.
+   * Simple regression: `price ~ sqft_living` to estimate **\$ per sqft**.
 
 ---
 
 ## Analysis Results
 
-* **Key finding 1 — Driver Teknis Harga**
-  Korelasi tertinggi ke `price`: **grade (0.665)**, **sqft\_living (0.656)**, **bathrooms (0.486)**, **lat (0.396)**.
-  Regresi sederhana memberi slope ≈ **\$197 per sqft** (≈ **+\$19.7k per 100 sqft** tambahan pada luas bangunan).
+* **Key finding 1 — Technical price drivers**
+  Highest correlations with `price`: **grade (0.665)**, **sqft\_living (0.656)**, **bathrooms (0.486)**, **lat (0.396)**.
+  A simple regression gives slope ≈ **\$197 per sqft** (≈ **+\$19.7k per additional 100 sqft** of living area).
 
-* **Key finding 2 — View & Condition Premium**
-  Rata-rata harga **Excellent view + Very Good condition** ≈ **\$1.014M**, sedangkan **No View + Average condition** ≈ **\$482k** → **premium ≈ \$532k (\~110%)**.
-  Implikasi: perbaikan kondisi/estetika dan positioning properti dengan view baik memberi uplift signifikan.
+* **Key finding 2 — View & condition premium**
+  Avg price for **Excellent view + Very Good condition** ≈ **\$1.014M** vs **No View + Average condition** ≈ **\$482k** → **≈ \$532k (\~110%) premium**.
+  Implication: upgrades that improve **finish grade/condition** and **perceived view** meaningfully lift value.
 
 * **Business impact**
 
-  * **Pricing**: model faktor utama (grade, sqft\_living, bathrooms, view/condition) membantu penentuan harga listing & negosiasi.
-  * **Renovation ROI**: fokus pada upgrade **grade/kualitas finishing** dan **kamar mandi** cenderung lebih berdampak pada nilai.
-  * **Targeting**: zona dengan lat/zipcode tertentu menunjukkan harga rata-rata lebih tinggi → arahkan kampanye ke segmen premium.
+  * **Pricing**: factor-based guidance (grade, living area, bathrooms, view/condition) supports listing price and negotiation.
+  * **Renovation ROI**: prioritize **finish grade** and **bathroom upgrades** for stronger value uplift.
+  * **Targeting**: spatial clusters (lat/zipcode) show higher averages → focus marketing on premium pockets.
 
 * **Challenges faced**
 
-  * **Distribusi harga long-tail** (p95 ≈ \$980k) memengaruhi rata-rata dan skala visual.
-  * **Makna kategori** (`grade`, `condition`) perlu diselaraskan agar interpretasi konsisten lintas tim.
-  * **Spatial nuance**: variasi mikro antar-blok tidak seluruhnya tertangkap pada agregasi zipcode.
+  * **Right-skewed prices** (p95 ≈ \$980k) affect averages and chart scaling.
+  * **Category semantics** (`grade`, `condition`) need shared definitions across teams.
+  * **Spatial granularity**: zipcode aggregation can hide block-level nuances.
 
 ---
 
 ## Dashboard & Files
 
 * **Tableau Workbook**: [House Prices Dashboard.twbx](sandbox:/mnt/data/House%20Prices%20Dashboard.twbx)
-  *(Buka dengan Tableau Desktop/Reader. Opsional: publish ke Tableau Public untuk live demo.)*
+  *(Open with Tableau Desktop/Reader. Optionally publish to Tableau Public for a live demo.)*
 * **Preview Screenshot**: [PNG](sandbox:/mnt/data/Screenshot%202025-08-06%20144317.png)
 * **Dataset**: [HouseData.xlsx](sandbox:/mnt/data/HouseData.xlsx)
 
-**Live Demo (opsional):**
-Setelah publish ke Tableau Public, tambahkan tautan di sini:
+**Live Demo (optional):**
+After publishing to Tableau Public, add your link here:
 `https://public.tableau.com/views/KingCountyHouseSales/...`
 
 ---
 
 ## Technical Highlights
 
-* **Data size**: 21,060 records, 16 fields; 2014–05–02 → 2015–05–27; 70 zipcode; tanpa missing pada kolom inti.
+* **Data size**: 21,060 records; 2014-05-02 → 2015-05-27; \~70 zipcodes; no missing values on key fields.
 * **Quick stats**: mean price ≈ **\$500k**; mean **July 2014** ≈ **\$509k**.
 * **Correlations to price**: grade (0.665), sqft\_living (0.656), bathrooms (0.486), lat (0.396), bedrooms (0.317).
-* **Regression (simple)**: \~ \$197 **per sqft** (price \~ sqft\_living).
-* **Heatmap insight**: kombinasi **view** dan **condition** menaikkan harga rata-rata secara konsisten.
+* **Simple regression**: \~ **\$197 per sqft** (price \~ sqft\_living).
+* **Heatmap takeaway**: stronger **view × condition** combos consistently command higher prices.
 
 ---
 
 ## How to Reproduce
 
-1. **Open workbook**:
-   Unduh dan buka [`House Prices Dashboard.twbx`](sandbox:/mnt/data/House%20Prices%20Dashboard.twbx) di Tableau.
-2. **Relink data (jika diminta)**:
-   Arahkan ke file [`HouseData.xlsx`](sandbox:/mnt/data/HouseData.xlsx).
-3. **Publish (opsional)**:
-   *Server → Tableau Public → Save to Tableau Public*, lalu tambahkan tautan “Live Demo” ke README ini.
+1. **Open the workbook**
+   Download and open [`House Prices Dashboard.twbx`](sandbox:/mnt/data/House%20Prices%20Dashboard.twbx) in Tableau.
+2. **Relink data if prompted**
+   Point to [`HouseData.xlsx`](sandbox:/mnt/data/HouseData.xlsx).
+3. **Publish (optional)**
+   *Server → Tableau Public → Save to Tableau Public*, then add the “Live Demo” link above.
 
 ---
 
 ## Business Value (Executive Summary)
 
-* Menyediakan **framework pricing** berbasis fitur fisik & kualitas (grade/condition) → mempercepat keputusan listing & appraisal.
-* Mengidentifikasi **prioritas renovasi** ber-ROI tinggi (upgrade grade & kamar mandi) dan menilai **premium view**.
-* Memberikan **pemetaan pasar** untuk targeting kampanye di area bernilai tinggi.
+* Delivers a **pricing framework** grounded in physical and quality features → faster listing/appraisal decisions.
+* Identifies **high-ROI renovations** (finish grade, bathroom upgrades) and quantifies **view premium**.
+* Provides **market mapping** to direct campaigns toward higher-value areas.
 
 ---
 
 ## Next Steps
 
-* Tambahkan **model ML ringan** (regularized regression / tree-based) untuk prediksi price dengan validasi silang.
-* Integrasi **price-per-sqft** dan **amenities** tambahan (jika data tersedia).
-* Perkaya layer spasial (parcel/block level) untuk insight lokasi yang lebih granular.
+* Add a lightweight **ML model** (regularized regression or tree-based) with cross-validation for price prediction.
+* Integrate **price-per-sqft** tracking and additional amenities (if available).
+* Enrich spatial data (parcel/block level) for finer location effects.
 
 ---
 
-## Repository Structure (suggested)
+## Suggested Repository Structure
 
 ```
 /data
@@ -127,7 +131,7 @@ Setelah publish ke Tableau Public, tambahkan tautan di sini:
   └── README.md
   └── screenshots/
        └── dashboard.png
-/notebooks (opsional)
+/notebooks (optional)
   └── quick_checks.ipynb
 ```
 
@@ -135,6 +139,6 @@ Setelah publish ke Tableau Public, tambahkan tautan di sini:
 
 ## Credits
 
-Data: “King County, WA House Sales (2014–2015)” — disediakan melalui file `HouseData.xlsx`.
+Data: “King County, WA House Sales (2014–2015)” — provided via `HouseData.xlsx`.
 Visuals: Tableau.
-Author: \[Nama Anda] — \[LinkedIn/GitHub].
+Author: \[Your Name] — \[LinkedIn/GitHub].
