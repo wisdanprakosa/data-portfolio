@@ -10,10 +10,9 @@
 * **Business problem**:
   Which factors (room type, neighborhood, availability, minimum nights) drive price and potential occupancy, and how can hosts/platforms use them to optimize pricing, supply, and listing strategy?
 * **Dataset**:
-  `Airbnb Listings Bangkok.csv` — **15,854 rows × 17 columns** (\~**2.30 MB**). Core fields: `price, room_type, neighbourhood, latitude, longitude, minimum_nights, number_of_reviews, last_review, reviews_per_month, availability_365, calculated_host_listings_count`. Date range for `last_review`: **2012-12-15 → 2022-12-28**.
-  Data dictionary provided in PDF.
+  `Airbnb Listings Bangkok.csv` — **15,854 rows × 17 columns**. Core fields: `price, room_type, neighbourhood, latitude, longitude, minimum_nights, number_of_reviews, last_review, reviews_per_month, availability_365, calculated_host_listings_count`. Date range for `last_review`: **2012-12-15 → 2022-12-28**.
 * **Tools used**:
-  Python (Pandas, NumPy, Matplotlib), Jupyter Notebook; optional: Tableau/Geo tools for mapping.
+  Python (Pandas, NumPy, Matplotlib), Jupyter Notebook.
 * **Timeline**: \~2–3 days (data understanding/cleaning: 1; EDA & visuals: 1–1.5; write-up: 0.5).
 
 ---
@@ -85,14 +84,6 @@
 
 ## Skills Demonstrated
 
-**Data wrangling (Pandas), exploratory data analysis, outlier handling, robust statistics, geospatial grouping (by neighborhood), visualization, and business interpretation for pricing & supply decisions.**
-
----
-
-## Next Steps
-
-* Model price with regularized regression or tree-based models (target: **log(price)**; features: room type, neighborhood, min nights, availability, reviews).
-* Add seasonality features (month, weekday) from calendar data if available.
-* Ship a **Streamlit/Tableau** mini-app for interactive exploration.
+**Data wrangling (Pandas), exploratory data analysis, outlier handling, robust statistics, visualization, and business interpretation for pricing & supply decisions.**
 
 ---
