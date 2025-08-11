@@ -1,5 +1,3 @@
----
-
 # King County, Washington — House Sales Analysis (2014–2015)
 
 > Visual analytics project to understand price drivers and neighborhood patterns for residential properties in King County, WA.
