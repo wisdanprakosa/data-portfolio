@@ -13,7 +13,6 @@
   `Airbnb Listings Bangkok.csv` — **15,854 rows × 17 columns**. Core fields: `price, room_type, neighbourhood, latitude, longitude, minimum_nights, number_of_reviews, last_review, reviews_per_month, availability_365, calculated_host_listings_count`. Date range for `last_review`: **2012-12-15 → 2022-12-28**.
 * **Tools used**:
   Python (Pandas, NumPy, Matplotlib), Jupyter Notebook.
-* **Timeline**: \~2–3 days (data understanding/cleaning: 1; EDA & visuals: 1–1.5; write-up: 0.5).
 
 ---
 
