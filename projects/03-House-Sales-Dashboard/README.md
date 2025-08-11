@@ -65,9 +65,8 @@
 
 ## Dashboard & Files
 
-* **Tableau Workbook**: [House Prices Dashboard.twbx](sandbox:/mnt/data/House%20Prices%20Dashboard.twbx)
+* **Tableau Workbook**: [House Prices Dashboard.twbx](./assets/House-Prices-Dashboard.twbx)
   *(Open with Tableau Desktop/Reader. Optionally publish to Tableau Public for a live demo.)*
-* **Preview Screenshot**: [PNG](sandbox:/mnt/data/Screenshot%202025-08-06%20144317.png)
 * **Dataset**: [HouseData.xlsx](./assets/HouseData.xlsx)
 
 **Live Demo:**
