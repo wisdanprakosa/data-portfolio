@@ -2,8 +2,6 @@
 
 > Visual analytics project to understand price drivers and neighborhood patterns for residential properties in King County, WA.
 
-![Dashboard preview](sandbox:/mnt/data/Screenshot%202025-08-06%20144317.png)
-
 ---
 
 ## Project Overview
@@ -13,9 +11,8 @@
   Identify how features (living area, bathrooms, grade/finish quality, view, condition, location) affect **sale price**, and turn those insights into actionable guidance for **pricing**, **renovation priorities**, and **marketing strategy**.
 * **Dataset**:
   `HouseData.xlsx` — **21,060 rows × 16 columns** . Transactions **2014-05-02 to 2015-05-27** with fields such as `price, bedrooms, bathrooms, sqft_living, sqft_lot, floors, waterfront, view, condition, grade, yr_built, zipcode, lat, long, date`.
-  • Download: [HouseData.xlsx](sandbox:/mnt/data/HouseData.xlsx)
 * **Tools used**:
-  Tableau (dashboards & geo maps), Microsoft Excel
+  Tableau (dashboards), Microsoft Excel
 * **Timeline**: \~3–4 days total (data understanding/cleaning: 1–2; dashboarding/insights: 1–2; documentation: 0.5).
 
 ---
@@ -74,8 +71,8 @@
 * **Dataset**: [HouseData.xlsx](sandbox:/mnt/data/HouseData.xlsx)
 
 **Live Demo:**
-After publishing to Tableau Public, add your link here:
-[`https://public.tableau.com/views/KingCountyHouseSales/...`](https://public.tableau.com/app/profile/muhammad.zaki8426/viz/HousePricesDashboard_17339701719370/KingCountyHouseSales?publish=yes)
+
+[House Sales Dashboard](https://public.tableau.com/app/profile/muhammad.zaki8426/viz/HousePricesDashboard_17339701719370/KingCountyHouseSales?publish=yes)
 
 ---
 
@@ -89,17 +86,6 @@ After publishing to Tableau Public, add your link here:
 
 ---
 
-## How to Reproduce
-
-1. **Open the workbook**
-   Download and open [`House Prices Dashboard.twbx`](sandbox:/mnt/data/House%20Prices%20Dashboard.twbx) in Tableau.
-2. **Relink data if prompted**
-   Point to [`HouseData.xlsx`](sandbox:/mnt/data/HouseData.xlsx).
-3. **Publish (optional)**
-   *Server → Tableau Public → Save to Tableau Public*, then add the “Live Demo” link above.
-
----
-
 ## Business Value (Executive Summary)
 
 * Delivers a **pricing framework** grounded in physical and quality features → faster listing/appraisal decisions.
@@ -107,34 +93,3 @@ After publishing to Tableau Public, add your link here:
 * Provides **market mapping** to direct campaigns toward higher-value areas.
 
 ---
-
-## Next Steps
-
-* Add a lightweight **ML model** (regularized regression or tree-based) with cross-validation for price prediction.
-* Integrate **price-per-sqft** tracking and additional amenities (if available).
-* Enrich spatial data (parcel/block level) for finer location effects.
-
----
-
-## Suggested Repository Structure
-
-```
-/data
-  └── HouseData.xlsx
-/dashboard
-  └── House Prices Dashboard.twbx
-/docs
-  └── README.md
-  └── screenshots/
-       └── dashboard.png
-/notebooks (optional)
-  └── quick_checks.ipynb
-```
-
----
-
-## Credits
-
-Data: “King County, WA House Sales (2014–2015)” — provided via `HouseData.xlsx`.
-Visuals: Tableau.
-Author: \[Your Name] — \[LinkedIn/GitHub].
