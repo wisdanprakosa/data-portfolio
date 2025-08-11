@@ -37,8 +37,6 @@
 
 ## Dashboard & Files
 
-* **Tableau Workbook**: [House Prices Dashboard.twbx](./assets/House-Prices-Dashboard.twbx)
-  *(Open with Tableau Desktop/Reader. Optionally publish to Tableau Public for a live demo.)*
 * **Dataset**: [HouseData.xlsx](./assets/HouseData.xlsx)
 * **Live Demo:** [House Sales Dashboard](https://public.tableau.com/app/profile/muhammad.zaki8426/viz/HousePricesDashboard_17339701719370/KingCountyHouseSales?publish=yes)
 
