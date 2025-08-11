@@ -1,4 +1,4 @@
-# King County, Washington — House Sales Analysis (2014–2015)
+# King County, Washington — House Sales Dashboard
 
 > Visual analytics project to understand price drivers and neighborhood patterns for residential properties in King County, WA.
 
@@ -6,7 +6,7 @@
 
 ## Project Overview
 
-* **Title**: King County House Sales — Price Drivers & Market Patterns
+* **Title**: King County House Sales Dashboard — Price Drivers & Market Patterns
 * **Business problem**:
   Identify how features (living area, bathrooms, grade/finish quality, view, condition, location) affect **sale price**, and turn those insights into actionable guidance for **pricing**, **renovation priorities**, and **marketing strategy**.
 * **Dataset**:
