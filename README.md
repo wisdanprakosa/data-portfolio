@@ -41,7 +41,7 @@ This project represents my journey from engineering problem-solving to data stor
 
 [View Project →](./projects/03-House-Sales-Dashboard)
 
-### 4. [Airbnb Listings Bangkok Analysis](./projects/04-Airbnb-Listings-Bangkok-Analysis)
+### 4. [Airbnb Listings Bangkok Analysis](./projects/04-Airbnb-Listings-Bangkok)
 **Tools:** Python, Pandas, Matplotlib, Seaborn, Tableau  
 
 [View Project →](./projects/04-Airbnb-Listings-Bangkok-Analysis)
