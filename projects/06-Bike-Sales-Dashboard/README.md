@@ -48,7 +48,7 @@
 
 ## Dashboard & Files
 * **Workbook (Excel)**:
-  `[Bike Sales Dashboard Project.xlsx](./assets/Bike%20Sales%20Dashboard%20Project.xlsx)`
+  `[Bike Sales Dashboard Project.xlsx](./assets/Bike-Sales-Dashboard-Project.xlsx)`
 
 ---
 
