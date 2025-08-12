@@ -26,10 +26,10 @@ I'm an engineer with 3 years of experience transitioning into data analyst. My e
 ## 🚀 Featured Projects
 This project represents my journey from engineering problem-solving to data storytelling, combining technical rigor with business impact analysis.
 
-### 1. [Industrial Carbon Emission Analysis](./projects/01-Industrial-Carbon-Emission-Analysis)
-**Tools:** Python, Pandas, Matplotlib, Seaborn, SQL  
+### 1. [Waste Management Analysis](./projects/01-Waste-Management-Analysis)
+**Tools:** Microsoft Excel (PivotTables, Slicers, Pivot Charts, Dashboard sheet) 
 
-[View Project →](./projects/01-Industrial-Carbon-Emission-Analysis)
+[View Project →](./projects/01-Waste-Management-Analysis)
 
 ### 2. [E-commerce Sales Analysis](./projects/02-retail-sales-analysis)
 **Tools:** SQL, BigQuery, Looker Data Studio  
@@ -55,6 +55,11 @@ This project represents my journey from engineering problem-solving to data stor
 **Tools:** Microsoft Excel (PivotTables, Slicers, Pivot Charts, Dashboard sheet)
 
 [View Project →](./projects/06-Bike-Sales-Dashboard)
+
+### 7. [Industrial Carbon Emission Analysis](./projects/07-Industrial-Carbon-Emission-Analysis)
+**Tools:** Python, Pandas, Matplotlib, Seaborn, SQL
+
+[View Project →](./projects/07-Industrial-Carbon-Emission-Analysis)
 
 ## 🛠️ Technical Skills
 
