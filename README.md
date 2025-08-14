@@ -31,30 +31,30 @@ This project represents my journey from engineering problem-solving to data stor
 
 [View Project →](./projects/01-Waste-Management-Analysis)
 
-### 2. [E-commerce Sales Analysis](./projects/02-retail-sales-analysis)
-**Tools:** SQL, BigQuery, Looker Data Studio  
-
-[View Project →](./projects/02-retail-sales-analysis)
-
-### 3. [House Sales Dashboard](./projects/03-House-Sales-Dashboard)
-**Tools:** Microsoft Excel, Tableau  
-
-[View Project →](./projects/03-House-Sales-Dashboard)
-
-### 4. [Airbnb Listings Bangkok Analysis](./projects/04-Airbnb-Listings-Bangkok)
-**Tools:** Python, Pandas, Matplotlib, Seaborn, Tableau  
-
-[View Project →](./projects/04-Airbnb-Listings-Bangkok-Analysis)
-
-### 5. [Taxi Trip Analysis](./projects/05-Taxi-Trip-Analysis)
+### 2. [Taxi Trip Analysis](./projects/02-Taxi-Trip-Analysis)
 **Tools:** Python, Pandas, Matplotlib, Seaborn  
 
-[View Project →](./projects/05-Taxi-Trip-Analysis)
+[View Project →](./projects/02-Taxi-Trip-Analysis)
 
-### 6. [Bike Sales Dashboard](./projects/06-Bike-Sales-Dashboard)
+### 3. [Bike Sales Dashboard](./projects/03-Bike-Sales-Dashboard)
 **Tools:** Microsoft Excel (PivotTables, Slicers, Pivot Charts, Dashboard sheet)
 
-[View Project →](./projects/06-Bike-Sales-Dashboard)
+[View Project →](./projects/03-Bike-Sales-Dashboard)
+
+### 4. [House Sales Dashboard](./projects/04-House-Sales-Dashboard)
+**Tools:** Microsoft Excel, Tableau  
+
+[View Project →](./projects/04-House-Sales-Dashboard)
+
+### 5. [Airbnb Listings Bangkok Analysis](./projects/05-Airbnb-Listings-Bangkok)
+**Tools:** Python, Pandas, Matplotlib, Seaborn, Tableau  
+
+[View Project →](./projects/05-Airbnb-Listings-Bangkok-Analysis)
+
+### 6. [E-commerce Sales Analysis](./projects/06-retail-sales-analysis)
+**Tools:** SQL, BigQuery, Looker Data Studio  
+
+[View Project →](./projects/06-retail-sales-analysis)
 
 ### 7. [Industrial Carbon Emission Analysis](./projects/07-Industrial-Carbon-Emission-Analysis)
 **Tools:** Python, Pandas, Matplotlib, Seaborn, SQL
