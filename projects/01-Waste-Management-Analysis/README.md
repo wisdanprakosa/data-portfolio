@@ -1,4 +1,4 @@
-# Indonesian Urban Solid Waste Analysis — SIPSN 2024
+# Indonesian Urban Solid Waste Analysis
 
 > A 2024 snapshot to map waste generation, check national targets for reduction & handling, and set intervention priorities.
 
@@ -21,12 +21,6 @@
 * **Average per reporting city/regency**: **107,874.09 tons/year** *(n = **315**; coverage **315/514** ≈ **61%**)*
 * **Processing note**: data cleaned and standardized; empty fields in performance columns are treated as **0**.
 
-## Method (brief)
-
-1. Normalize fields & units (tons/year; kg/person/year → kg/person/day).
-2. Descriptive roll-up: national KPIs, top areas, provincial shares, per-capita indicators.
-3. Check against **Presidential Regulation 97/2017** (Reduction ≥30%, Handling ≥70%).
-
 ---
 
 ## KPI Summary (2024)
@@ -43,13 +37,13 @@
 
 ## Top-5 Highest Waste (tons/year)
 
-1. **Bogor Regency** — **1,026,931.33**
-2. **East Jakarta (Administrative City)** — **859,045.05**
-3. **Tangerang City** — **798,405.91**
-4. **West Jakarta (Administrative City)** — **757,857.05**
-5. **South Jakarta (Administrative City)** — **725,690.82**
+1. **Bogor Regency** — **1,026,931.33 tons/year**
+2. **East Jakarta** — **859,045.05 tons/year**
+3. **Tangerang City** — **798,405.91 tons/year**
+4. **West Jakarta** — **757,857.05 tons/year**
+5. **South Jakarta** — **725,690.82 tons/year**
 
-## Provincial Contribution to National Total
+## Provincial Contribution to National Total 
 
 * **West Java**: **18.11%**
 * **East Java**: **12.26%**
@@ -57,15 +51,12 @@
 
 ## Per-Capita Indicators
 
-*(kg/person/year → kg/person/day)*
 
-* **DKI Jakarta**: **296.80 → 0.81**
-* **Banten**: **173.74 → 0.48**
-* **West Java**: **122.22 → 0.34**
-* **East Java**: **99.63 → 0.27**
-* **Central Java**: **91.48 → 0.25**
-
-> International practice (World Bank/UNEP) typically compares **per-capita** measures rather than total volume—hence the use of **kg/person/day** for cross-area comparisons.
+* **DKI Jakarta**: **0.81 kg/person/day**
+* **Banten**: **0.48 kg/person/day**
+* **West Java**: **0.34 kg/person/day**
+* **East Java**: **0.27 kg/person/day**
+* **Central Java**: **0.25 kg/person/day**
 
 ---
 
@@ -81,21 +72,10 @@
   * **Kulon Progo Regency (Special Region of Yogyakarta)**
   * **Banyuwangi Regency (East Java)**
   * **Magetan Regency (East Java)**
-* **Reduction = 0**: **18 areas**, including:
-  Aceh (Pidie Jaya Regency, Sabang City), North Sumatra (Dairi Regency), East Nusa Tenggara (Timor Tengah Utara, Sumba Timur, Malaka Regencies), Central Kalimantan (Gunung Mas Regency), Southeast Sulawesi (Konawe Utara, Buton Selatan Regencies), North Maluku (Halmahera Tengah, Halmahera Selatan, Kepulauan Sula, Halmahera Timur, Pulau Morotai, Pulau Taliabu Regencies), Papua (Sarmi Regency), Central Papua (Dogiyai Regency), Southwest Papua (Sorong Selatan Regency).
 
 ### Handling (≥70% of generation)
 
 * **Achieved**: **70/315 (22.22%)**
-
----
-
-## Dashboard Components (suggested)
-
-* **KPI Bar**: Total waste; Average (n=315); Coverage; % meeting **Reduction ≥30%**; % meeting **Handling ≥70%**.
-* **Bar Chart**: **Top-10** waste (tons/year).
-* **Stacked Bars by Province**: **Met target / < Target / = 0** for **Reduction** and **Handling** (two panels).
-* **Choropleth (city/regency)**: **kg/person/day** (quartiles), with tooltip showing waste volume, per-capita, % reduction, and % handling.
 
 ---
 
@@ -113,25 +93,3 @@
 * **Handling (downstream)** = collection, processing, disposal. **% handling = handled volume / total generation**.
 
 ---
-
-## Repo Structure (optional)
-
-```
-/sipsn-2024
-├─ README.md
-├─ data/
-│  └─ sipsn_2024.csv
-├─ notebooks/   # if any
-└─ dashboards/  # BI files / images
-```
-
-## Next Steps (optional)
-
-* Add **per-capita ranking** by city/regency.
-* Build **stacked bars** of target status by province (met / \<target / =0).
-* Create a **priority list** using a simple score (volume, per-capita, target status).
-
----
-
-If you want, I can also trim this into a one-page executive summary or add an **English CV blurb** version.
-
