@@ -71,9 +71,10 @@ This project represents my journey from engineering problem-solving to data stor
 - Version Control - Git, GitHub
 
 **📈 Certifications & Courses:**
+- Certificate Associate Data Analyst by DataCamp (2025)
 - Certificate of Accomplishment SQL (Basic) by HackerRank (2025)
-- Hands On Data Portfolio by M Fauzan S Nugraha (2025)
 - Data Analyst Mini Bootcamp by M Fauzan S Nugraha (2025)
+- Hands On Data Portfolio by M Fauzan S Nugraha (2025)
 - Data Analytics by Remote Worker Indonesia (2024)
 - Job Connector Data Science Batch 11 2023 by Purwadhika Digital School dan Technology 
 
