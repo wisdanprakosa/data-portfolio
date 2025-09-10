@@ -1,4 +1,4 @@
-# Indonesian Urban Solid Waste Analysis
+# Analysis of Indonesia’s Municipal Solid Waste Management 2024: Challenges, Achievements, and Strategic Priorities
 
 > A 2024 snapshot to map waste generation, check national targets for reduction & handling, and set intervention priorities.
 
