@@ -26,10 +26,10 @@ I'm an engineer with 3 years of experience transitioning into data analyst. My e
 ## 🚀 Featured Projects
 This project represents my journey from engineering problem-solving to data storytelling, combining technical rigor with business impact analysis.
 
-### 1. [Waste Management Analysis](./projects/01-Waste-Management-Analysis)
+### 1. [Indonesia’s Solid Waste Analysis](./projects/01-Indonesia’s-Solid-Waste-Analysis)
 **Tools:** Microsoft Excel (PivotTables, Slicers, Pivot Charts, Dashboard sheet) 
 
-[View Project →](./projects/01-Waste-Management-Analysis)
+[View Project →](./projects/01-Indonesia’s-Solid-Waste-Analysis)
 
 ### 2. [Taxi Trip Analysis](./projects/02-Taxi-Trip-Analysis)
 **Tools:** Python, Pandas, Matplotlib, Seaborn  
