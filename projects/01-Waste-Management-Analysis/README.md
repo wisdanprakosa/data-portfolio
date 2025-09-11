@@ -1,104 +1,108 @@
-# Analysis of Indonesia’s Municipal Solid Waste Management 2024: Challenges, Achievements, and Strategic Priorities
 
-> A 2024 snapshot to map waste generation, check national targets for reduction & handling, and set intervention priorities.
+## 📌 Project Overview  
+This project analyzes **Indonesia’s Municipal Solid Waste (MSW) performance in 2024** using the official dataset from the **National Waste Management Information System (SIPSN)**.  
+The analysis aims to evaluate **waste generation patterns**, **progress toward national reduction & handling targets**, and identify **strategic priorities** for future interventions.  
 
----
+This project is part of my **Data Analyst portfolio**, showcasing skills in data cleaning, descriptive analysis, visualization, and policy-oriented insights.  
 
-## Project Overview
 
-* **Title**: Indonesian Urban Waste Generation Analysis Based on SIPSN 2024
-* **Business goals**:
 
-  * Understand waste generation at the city/regency level.
-  * Identify areas with the highest volumes.
-  * Evaluate performance on **reduction** (upstream) and **handling** (downstream).
-  * Set policy and intervention priorities.
-
-## Dataset & Coverage
-
-* **Source**: SIPSN (KLHK), year **2024**
-* **Total national waste**: **33,980,337.89 tons/year**
-* **Average per reporting city/regency**: **107,874.09 tons/year** *(n = **315**; coverage **315/514** ≈ **61%**)*
-* **Processing note**: data cleaned and standardized; empty fields in performance columns are treated as **0**.
+# Analysis of Indonesia’s Municipal Solid Waste Management 2024  
+**Challenges, Achievements, and Strategic Priorities**
 
 ---
 
-## KPI Summary (2024)
-
-* **Total waste**: **33,980,337.89 tons/year**
-* **Average per city/regency (n=315)**: **107,874.09 tons/year**
-* **Coverage**: **315/514** city/regency (**61%**)
-* **Target achievement**:
-
-  * **Reduction ≥30%**: **6/315 (1.90%)**
-  * **Handling ≥70%**: **70/315 (22.22%)**
+## 🌍 Impact Statement  
+Indonesia generates over **34 million tons of municipal waste annually**, with more than **40% concentrated in Java Island**.  
+Yet, only **22.5% of municipalities** meet handling targets, and less than **2% achieve reduction targets**.  
+This project analyzes these gaps and explores strategies to improve performance while identifying opportunities for circular economy solutions.  
 
 ---
 
-## Top-5 Highest Waste (tons/year)
-
-1. **Kabupaten Bogor** — **1,026,931.33 tons/year**
-2. **Jakarta Timur** — **859,045.05 tons/year**
-3. **Kota Tangerang** — **798,405.91 tons/year**
-4. **Jakarta Barat** — **757,857.05 tons/year**
-5. **Jakarta Selatan** — **725,690.82 tons/year**
-
-## Provincial Contribution to National Total 
-
-* **Jawa Barat**: **18.11%**
-* **Jawa Timur**: **12.26%**
-* **Jawa Tengah**: **10.20%**
-* **DKI Jakarta**: **9.33%**
-* **Banten**: **6.36%**
-
-## Per-Capita Indicators
-
-* **DKI Jakarta**: **0.81 kg/person/day**
-* **Banten**: **0.48 kg/person/day**
-* **Jawa Barat**: **0.34 kg/person/day**
-* **Jawa Timur**: **0.27 kg/person/day**
-* **Jawa Tengah**: **0.25 kg/person/day**
+## 📌 Project Motivation  
+This project was conducted as part of my **Data Analyst portfolio**, showcasing my ability to:  
+- Clean and standardize raw government data.  
+- Perform exploratory data analysis (EDA).  
+- Visualize insights to support **policy evaluation** and **business impact assessment**.  
+- Translate data findings into **actionable recommendations**.  
 
 ---
 
-## Target Status (Pres. Reg. 97/2017)
-
-### Reduction (≥30% of generation)
-
-* **Achieved**: **6/315 (1.90%)**
-
-  * **Kabupaten Bandung (Jawa Barat)**
-  * **Kabupaten Ciamis (Jawa Barat)**
-  * **Kabupaten Banyumas (Jawa Tengah)**
-  * **Kabupaten Kulon Progo (Special Region of Yogyakarta)**
-  * **Kabupaten Banyuwangi (Jawa Timur)**
-  * **Kabupaten Magetan (Jawa Timur)**
-
-### Handling/Treatment (≥70% of generation)
-
-* **Achieved**: **70/315 (22.22%)**
-  
- * **Kab. Wonosobo (Jawa Tengah)** 
- * **Kota Ambon (Maluku)**
- * **Kota Bandung (Jawa Barat)**
- * **Kota Dumai (Riau)**
- * **Kota Pekanbaru (Riau)**
- * **Kota Samarinda (Kalimantan Timur)**
- * **Kota Yogyakarta (Special Region of Yogyakarta)...etc**
+## 📊 Dataset & Coverage  
+- **Source**: [SIPSN – Sistem Informasi Pengelolaan Sampah Nasional 2024](https://sipsn.kemenlh.go.id/sipsn/)  
+- **Coverage**: 320 out of 514 municipalities (~62%)  
+- **Disclaimer**:  
+  - Data is **self-reported** by municipalities.  
+  - The **2024 projection** is assumed equal to actual 2024 waste generation, used only for portfolio simulation purposes.  
 
 ---
 
-## Key Insights (short)
+## 🛠️ Tools & Skills Demonstrated  
+- **Programming & Data Handling**: Python (Pandas, NumPy)  
+- **Exploratory Data Analysis**: Grouping, aggregation, descriptive statistics  
+- **Data Visualization**: Matplotlib, Seaborn  
+- **Presentation & Storytelling**: PowerPoint, infographic charts  
+- **Domain Knowledge**: Waste management policy (Presidential Regulation No. 97/2017)  
 
-* The largest volumes cluster around **Greater Jakarta (Jabodetabek)**—Bogor Regency and three Jakarta administrative cities.
-* **Per-capita** is highest in **DKI Jakarta (0.81 kg/person/day)**—suggesting both upstream (3R) and downstream (treatment) measures are needed.
-* **Target attainment is still low**: reduction **1.90%**, handling **22.22%**—prioritize areas with **= 0** and provinces with many sub-regions below target.
+---
+
+## 🔑 Key Findings  
+
+### 1. Waste Generation  
+- **Total waste**: ~34.63 million tons/year  
+- **Average per municipality**: ~108,511 tons/year  
+- **Concentration**: West Java (>6M tons), East Java (4.6M), Central Java (3.5M)  
+
+### 2. Lowest Waste Generation  
+- **South Papua**: ~26K tons/year (lowest)  
+- Other low generators: West Papua, Papua Pegunungan, North Kalimantan  
+
+### 3. City-Level Insights  
+- **Highest**: Bogor Regency (~1.02M tons/year)  
+- **Lowest**: Tana Tidung (~4.1K tons/year)  
+
+### 4. Per-Capita Waste  
+- **Jakarta**: 0.813 kg/person/day (highest)  
+- **5-province average**: 0.43 kg/person/day  
+- Still **lower than developed countries** (EU ~1.3–1.4 kg/person/day)  
+
+### 5. Performance on Targets  
+- **Handling (≥70%)**: Only 22.5% municipalities achieved  
+- **Reduction (≥30%)**: Only 1.88% municipalities achieved  
+- **Zero performance**: Several regions reported 0% reduction & handling  
 
 ---
 
-## Quick Definitions
-
-* **Reduction (upstream)** = 3R/limitation. **% reduction = reduced volume / total generation**.
-* **Handling/Treatment (downstream)** = collection, processing, disposal. **% handling = handled volume / total generation**.
+## 📈 Business & Policy Impact  
+1. **Prioritize interventions** in Java & Jakarta → highest leverage.  
+2. **Regulatory risk** → failure to achieve *Presidential Regulation No. 97/2017* undermines credibility.  
+3. **Technical assistance** → zero-performance areas must be supported.  
+4. **Circular economy opportunities** → Jakarta and big cities show potential for recycling, waste-to-energy, and 3R business.  
+5. **Urbanization anticipation** → city-based strategies needed to prevent per-capita growth exceeding system capacity.  
 
 ---
+
+## 🔮 Next Steps
+
+* Build an **interactive dashboard** (Tableau / Power BI) for real-time exploration.
+* Apply **predictive modeling** to forecast future waste generation under different scenarios.
+* Expand coverage once more municipalities report complete data.
+
+---
+
+## 📝 Credits
+
+* **Dataset**: KLHK – Sistem Informasi Pengelolaan Sampah Nasional (SIPSN)
+* **Visuals**: Adapted from analysis deck (PowerPoint)
+* **Template**: Custom README design for Data Analyst portfolio
+
+---
+
+## 📬 Contact
+
+👤 Author: \[Your Name]
+📧 Email: [your.email@example.com](mailto:your.email@example.com)
+🌐 Portfolio: \[yourwebsite.com]
+🔗 LinkedIn: [linkedin.com/in/yourprofile](#)
+
+```
