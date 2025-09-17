@@ -97,12 +97,3 @@ This project was conducted as part of my **Data Analyst portfolio**, showcasing 
 * **Template**: Custom README design for Data Analyst portfolio
 
 ---
-
-## 📬 Contact
-
-👤 Author: \[Your Name]
-📧 Email: [your.email@example.com](mailto:your.email@example.com)
-🌐 Portfolio: \[yourwebsite.com]
-🔗 LinkedIn: [linkedin.com/in/yourprofile](#)
-
-```
