@@ -1,12 +1,10 @@
 # 📊 M Zaki Wijdan Prakosa - Data Portfolio
 
-> Data analyst skilled in Microsoft Excel, Python, SQL, Tableau, Looker Studio 
-
 ## 👋 About Me
 
 **Career Transition: Engineering → Data Analytics**
 
-I'm an engineer with 3 years of experience transitioning into data analyst. My engineering background brings analytical rigor, problem-solving skills, and technical expertise to data-driven decision making. This portfolio demonstrates my commitment to leveraging data for business impact and environmental sustainability. Passionate data professional leverages an engineering mindset to extract actionable insights from complex datasets.
+> ESG & Sustainability-focused Data Analyst with an Environmental Engineering background and 4+ years of experience in infrastructure, compliance, and data-driven decision support. Skilled in Python, SQL, Excel, Tableau, and statistical modeling, with hands-on experience analyzing environmental performance, regulatory benchmarks, and risk classification models. Experienced in transforming complex sustainability and operational datasets into actionable insights that support policy evaluation, risk mitigation, and strategic decision-making for global organizations.
 
 **Transferable Skills:** 
 - Problem decomposition and systematic analysis
