@@ -24,6 +24,9 @@
 ## 🚀 Featured Projects
 This project represents my journey from engineering problem-solving to data storytelling, combining technical rigor with business impact analysis.
 
+### 00. [Freelancer.com](./projects/00-Freelancer.com)
+**Tools:** Python, Data Analysis & Machine Learning (Pandas, NumPy, Scikit-learn, XGBoost, Statsmodels), Data Visualization (Tableau, Matplotlib, Seaborn)
+
 ### 1. [Analysis of Indonesia’s Municipal Solid Waste Management 2024: Challenges, Achievements, and Strategic Priorities](./projects/01-Waste-Management-Analysis)
 **Tools:** Microsoft Excel (PivotTables, Slicers, Pivot Charts, Dashboard sheet) 
 
