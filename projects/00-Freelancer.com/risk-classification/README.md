@@ -1,4 +1,4 @@
-## Logistic Regression | Classification Modeling | Python
--	Conducted end-to-end data preprocessing and feature engineering on 36K+ hotel booking records, including outlier treatment, encoding, and multicollinearity checks.
--	Developed and evaluated a Logistic Regression classification model achieving 81% accuracy, with 0.74 precision and 0.68 F1-score for the cancellation class.
--	Performed threshold analysis and model evaluation using confusion matrix and classification metrics to support risk-based revenue optimization strategies.
+## Ensemble Learning for Risk Classification
+-	Developed and evaluated ensemble classification models (Random Forest, Bagging, AdaBoost) as part of a structured benchmarking study, achieving up to 99.48% test accuracy with strong precision–recall balance (F1-score: 0.995).
+-	Applied 5-fold cross-validation (96.9% mean accuracy ± 1.89%) and hyperparameter tuning (GridSearchCV) to assess model stability and reduce overfitting.
+-	Performed feature importance analysis to improve model interpretability and identify key predictors (PARA_A, TOTAL, District) supporting risk classification insights.
