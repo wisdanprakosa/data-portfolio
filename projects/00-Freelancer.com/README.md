@@ -90,6 +90,3 @@ EDA on food delivery orders to identify restaurant performance and customer beha
 Interactive Tableau dashboard analyzing 7,647 insurance claims and risk segmentation.
 
 [View Project](./insurance-dashboard)
-
-
-<img width="468" height="577" alt="image" src="https://github.com/user-attachments/assets/1d8dc218-419f-435e-9153-8265c2837d2a" />
