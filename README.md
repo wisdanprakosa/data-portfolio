@@ -54,11 +54,6 @@ This project represents my journey from engineering problem-solving to data stor
 
 [View Project →](./projects/06-retail-sales-analysis)
 
-### 7. [Industrial Carbon Emission Analysis](./projects/07-Industrial-Carbon-Emission-Analysis)
-**Tools:** Python, Pandas, Matplotlib, Seaborn, SQL
-
-[View Project →](./projects/07-Industrial-Carbon-Emission-Analysis)
-
 ## 🛠️ Technical Skills
 
 **Languages & Tools:**
